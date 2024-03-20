@@ -109,3 +109,16 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
+                       
+            const SizedBox(height: 20.0),
+            const Text(
+              '8. Padding:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Container(
+                color: Color.fromARGB(255, 97, 122, 64),
+                child: const Text('Aku Mau Dia'),
+              ),
+            ),
